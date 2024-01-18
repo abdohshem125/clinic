@@ -1,0 +1,111 @@
+
+
+.doctorImg{
+    width: 75% !important;
+}
+.doctorInfo h1{
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: .2rem;
+    color: hsl(214, 70%, 41%);
+    margin-bottom: 70px;
+    width: fit-content;
+    border-bottom: 2px solid #205fb3 ;
+}
+
+.doctorInfo h2{
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.doctorInfo h2 span{
+    font-weight: bold;
+    color: #205fb3;
+}
+.rate{
+    /* margin-top: 65px; */
+    margin-bottom:5px !important;
+}
+.stars{
+    color: #205fb3;
+}
+
+.tableAppoints{
+    width: 100%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    font-size: 20px;
+    text-align: center !important;
+    margin-bottom: 80px;
+  }
+
+  th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    text-align: center;font-weight: 400;
+  }
+
+  th {
+    background-color:  #3677cd;;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  tr:hover {
+    background-color: #f5f5f5;
+  }
+  .appoints h1{
+    font-size: 35px;
+    font-family: 'Segoe UI'; 
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #07387a;
+  }
+  .comments{
+    margin-bottom: 80px !important;
+  }
+  .comments h2{
+    font-size: 35px;
+    font-family: 'Segoe UI'; 
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #07387a;
+  }
+
+.comment-container {
+  max-width: 1100px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.comment {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.comment img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+
+
+.comment-details h3 {
+  margin: 0 0 15px;
+  font-size: 22px !important;
+  font-weight: bold;
+}
+
+.comment-details p {
+  margin: 0;
+  font-size: 18px;
+}

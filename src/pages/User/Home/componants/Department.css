@@ -1,0 +1,7 @@
+.hi {
+    transition: all 0.3s ease-in-out !important;
+}
+.hi:hover {
+    scale: 1.5;
+
+}

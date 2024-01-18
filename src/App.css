@@ -1,0 +1,13 @@
+::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(to top, #559af3, #1462f3, #559af3);;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-image: linear-gradient(to top,  #1462f3, #559af3, #559af3);
+  ;}

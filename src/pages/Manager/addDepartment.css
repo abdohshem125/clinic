@@ -1,0 +1,72 @@
+.containerAddpage{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin: auto;
+    width: 800px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    box-shadow: 10px 20px 50px 1px #d5d2d2;;
+}
+ h2{
+    margin-top: 30px;
+    margin-bottom: 45px;
+    font-size: 45px;
+    font-weight: bold;
+    color: #205fb3;
+    font-family: 'Segoe UI ';
+}
+ .inputRegister {
+    padding:10px 30px;
+    width: 400px;
+    margin-bottom: 20px;
+    font-size: 17px;
+    font-family: 'Segoe UI ';
+    border-radius: 15px;
+    font-weight: bold;
+    border: 1px solid rgb(32, 32, 94);
+}
+
+.inerrRegisterBox .inputRegister:focus{
+    border-radius: 15px; 
+    border: 2.2px solid #205fb3 ;
+   }
+.btnregister{
+    padding: 10px 20px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    color: white;
+    background-color: #205fb3;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 15px;
+    font-family: 'Segoe UI ';
+}   
+.forgetText{
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.imgRegisterContainer{
+    margin-right:50px ;
+    margin-top: 100px;
+}
+.labelInput{
+    font-size:20px ;
+    font-weight: bold;
+}
+
+@media screen and (max-width:420px){
+
+    .imgRegisterContainer{
+        display: none;
+    }
+    .OuterRegisterBox{
+        margin-top: 90px;
+        padding-top: 40px;
+        padding-bottom: 50px;
+        box-sizing: border-box !important   ;
+        border-top: 2px solid rgb(215, 203, 203);
+        border-radius: 35px;     
+    }
+   
+}
